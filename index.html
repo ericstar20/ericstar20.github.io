@@ -3,10 +3,12 @@
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Reference: https://www.gravitatedesign.com/blog/event-tracking-google-analytics/
 -->
 <html>
 	<head>
-		
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150731914-1"></script>
 		<script>
@@ -71,7 +73,7 @@
 								</header>
 								<a href="#" class="image main"><img src="images/sw1.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="images/Eric_Wang_Resume.pdf" target="_blank" class="button">My Resume</a>
+									<li><a href="images/Eric_Wang_Resume.pdf" target="_blank" class="button" onClick=”_gaq.push([‘_trackEvent’, view_resume, ‘click’, Resume, ‘0’]);”>My Resume</a>
 								</ul>
 							</article>
 
