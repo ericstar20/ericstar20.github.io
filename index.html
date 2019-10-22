@@ -5,6 +5,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 	Reference: https://www.gravitatedesign.com/blog/event-tracking-google-analytics/
+						 https://www.optimizesmart.com/event-tracking-guide-google-analytics-simplified-version/
 -->
 <html>
 	<head>
@@ -73,7 +74,7 @@
 								</header>
 								<a href="#" class="image main"><img src="images/sw1.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="images/Eric_Wang_Resume.pdf" target="_blank" class="button" onClick=”_gaq.push([‘_trackEvent’, view_resume, ‘click’, Resume, ‘0’]);”>My Resume</a>
+									<li><a href="images/Eric_Wang_Resume.pdf" target="_blank" class="button" onClick=”ga(‘send’, ‘event’, ‘resume’, ‘downloadresume’,resume.pdf’, 0);“>My Resume</a>
 								</ul>
 							</article>
 
